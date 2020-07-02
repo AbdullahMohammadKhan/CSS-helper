@@ -12,3 +12,4 @@
 ## CSS Backgrounds
 Opacity / Transparency:
 The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:
+[logo]: https://github.com/AbdullahMohammadKhan/CSS-helper/blob/master/images/Screen%20Shot%202020-07-02%20at%2011.44.18%20AM.png "Logo Title Text 2"
