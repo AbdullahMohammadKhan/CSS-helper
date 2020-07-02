@@ -10,6 +10,7 @@
 *[Everything about colors from W3School](https://www.w3schools.com/colors/)
 
 ## CSS Backgrounds
+#### background-color
 Opacity / Transparency:
 The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:
 
@@ -22,3 +23,4 @@ Transparency using RGBA
 If you do not want to apply opacity to child elements, like in our example above, use RGBA color values. The following example sets the opacity for the background color and not the text:
 
 ![alt text](https://github.com/AbdullahMohammadKhan/CSS-helper/blob/master/images/Screen%20Shot%202020-07-02%20at%2011.56.09%20AM.png "2")
+#### background-image
