@@ -35,6 +35,60 @@ body {
 ```
 #### CSS Background Repeat
 By default, the background-image property repeats an image both horizontally and vertically.Some images should be repeated only horizontally or vertically, or they will look strange.
-To repeat an image vertically, set ```background-repeat: repeat-y;```
-To repeat an image horizontally, set ```background-repeat: repeat-x```;
+To repeat an image vertically, set
+```background-repeat: repeat-y;```
 
+To repeat an image horizontally, set 
+```background-repeat: repeat-x```;
+
+Showing the background image only once is also specified by the ```background-repeat:no-repeat``` property
+
+#### CSS background-position
+The background-position property is used to specify the position of the background image
+
+ব্যাকগ্রাউন্ড ফিক্সড থাকবে ,লেখা ক্রল্ড হতে থাকবেঃ 
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_background-attachment
+
+#### CSS background - Shorthand property
+When using the shorthand property the order of the property values is:
+
+-background-color
+-background-image
+-background-repeat
+-background-attachment
+-background-position
+
+
+Value	Description
+scroll:	The background image will scroll with the page. This is default
+fixed:	The background image will not scroll with the page
+local:	The background image will scroll with the element's contents
+initial:	Sets this property to its default value. Read about initial
+inherit:	Inherits this property from its parent element. Read about inherit
+
+background-image:sets the position of the image on the screen, left, right, top,bottom,ceter
+background-cover: stretches the image as to how it should fit the screen
+```
+.fixed-bg {
+  background-image: url("img_tree.gif");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+```
+
+try here:
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_background-attachment_fixed
+
+
+
+inline elements: এদের হাইট উইডথ চেইঞ্জ করা যায় না 
+span, a ,b , em
+
+block elements:starts always in a new line, takes the full width of the parent element by default
+div, nav, aside, main 
+
+
+ইনলাইন এলিমেন্টে যদি ডিসপ্লে ঃ ইনলাইন-ব্লক দেই তাহলে ওরা ব্লক এলিমেন্টের মত আজ করবে , কিন্তু ইনলাইনেই থাকবে 
