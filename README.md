@@ -24,3 +24,17 @@ If you do not want to apply opacity to child elements, like in our example above
 
 ![alt text](https://github.com/AbdullahMohammadKhan/CSS-helper/blob/master/images/Screen%20Shot%202020-07-02%20at%2011.56.09%20AM.png "2")
 #### background-image
+The background-image property specifies an image to use as the background of an element.
+By default, the image is repeated so it covers the entire element.
+The background image for a page can be set like this: 
+```
+body {
+  background-image: url("paper.gif");
+  background-image: url("paper.jpg");
+}
+```
+#### CSS Background Repeat
+By default, the background-image property repeats an image both horizontally and vertically.Some images should be repeated only horizontally or vertically, or they will look strange.
+To repeat an image vertically, set ```background-repeat: repeat-y;```
+To repeat an image horizontally, set ```background-repeat: repeat-x```;
+
